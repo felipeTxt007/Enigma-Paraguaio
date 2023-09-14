@@ -1,0 +1,21 @@
+body{
+    text-shadow: 100px 8px 16px rgba(0, 0, 0, 100);
+    background-image: url('https://th.bing.com/th/id/OIP.ZWQOcishUJHfGklwaoCr2AHaFM?w=270&h=180&c=7&r=0&o=5&pid=1.7');
+ background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+    color: white;
+    font-size: 23px;
+}
+.ver{
+    margin-top: 15%;
+    
+    text-align: center;
+    position: relative;
+}
+.p10c{
+    text-align: center;
+}
+.av{
+    text-align: center;
+}

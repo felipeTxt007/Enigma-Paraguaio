@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enigma paraguaio 2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+
+<h1>
+
+<p class="av">|*|FASE 2|*| <br><br> 2654 Av. Expedicionário João Protzek <br> irati PR</p>
+<br>
+<p class="p10c">Por 10 reais!!!</p>
+</h1>
+
+<h2>
+    <div class="ver">
+    <textarea name="fds" id="texto" cols="30" rows="1"></textarea>
+<button onclick="verificarTexto()">Verificar</button>
+</div>
+<script>
+function verificarTexto() {
+    // Obtém o valor da textarea
+    var texto = document.getElementById("texto").value;
+
+    // Verifica se o texto é igual a "tanjerina"
+    if (texto === "pao sovado") {
+        // Redireciona para outra página (substitua 'outrapagina.html' pelo URL desejado)
+        window.location.href = 'outrapagina.html';
+    } else {
+        alert("Incorreto");
+    }
+}
+</script>
+</h2>
+</body>
+</html>

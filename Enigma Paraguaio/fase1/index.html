@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enigma paraguaio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>
+<p class="n">|*|FASE 1|*| <br><br>--Não use acentos ou qualquer tipo de caracter especial--</p>
+<img src="https://th.bing.com/th/id/OIP.79SGEwsjWad_KfAvjx-aXAHaE8?w=235&h=180&c=7&r=0&o=5&pid=1.7" alt="uma certa fruta"class="poca">
+
+</h1>
+
+<h2>
+<div class="ver">
+<textarea name="fds" id="texto" cols="30" rows="1"></textarea>
+<button onclick="verificarTexto()">Verificar</button>
+</div>
+<script >
+function verificarTexto() {
+    // Obtém o valor da textarea
+    var texto = document.getElementById("texto").value;
+
+    // Verifica se o texto é igual a "tanjerina"
+    if (texto === "mexirica") {
+        // Redireciona para outra página (substitua 'outrapagina.html' pelo URL desejado)
+        window.location.href = 'http://127.0.0.1:5500/faze2/faze2.html';
+    } else {
+        alert("Incorreto");
+    }
+}
+</script>
+</h2>
+</body>
+</html>
